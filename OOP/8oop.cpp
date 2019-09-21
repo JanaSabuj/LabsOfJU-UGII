@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void swap_val(int &a, int &b) {
+void swap_ref(int &a, int &b) {
 	int temp;
 	temp = a;
 	a = b;
@@ -13,7 +13,7 @@ int main() {
 	int a = 5, b = 10;
 	cout << "a = " << a << ", b = " << b << endl;
 
-	swap_val(a, b);
+	swap_ref(a, b);
 	cout << "a = " << a << ", b = " << b << endl;
 
 

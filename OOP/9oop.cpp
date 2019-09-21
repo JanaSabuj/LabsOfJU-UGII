@@ -1,13 +1,13 @@
 #include <iostream>
 using namespace std;
 
-void swap_val(char a[], char b[]){
+void swap_ref(char a[], char b[]){
 	char temp[10];
 	int i=0,j=0;
 
 	while(a[i]!='\0'){
 
-		
+
 
 	}
 
