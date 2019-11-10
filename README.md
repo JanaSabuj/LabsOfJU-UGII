@@ -1,2 +1,2 @@
-# jadavpur-university-dsa-oop-lab
-ju-dsa-oop-lab assignments
+# Lab Works og JU in Sophomore Year
+All assignments of DSA - DBMS - ASM 
