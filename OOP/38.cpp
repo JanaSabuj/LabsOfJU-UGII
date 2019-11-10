@@ -1,9 +1,9 @@
 #include <iostream>
 using namespace std;
 
-class Person{};
+class Base{};
 
-class Student : public Person {};
+class Derived : public Base {};
 
 int main() {
 
