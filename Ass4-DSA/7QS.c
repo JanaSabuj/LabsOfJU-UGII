@@ -6,7 +6,7 @@ int rand_part(int A[], int start, int end);
 void swap(int* x, int* y);
 int part(int A[], int start, int end);
 
-int main(void) {
+int main() {
   
   int A[] = {7,8,9,11,5,5,4,2,1,3,6};
   int n = sizeof(A) / sizeof(A[0]);
