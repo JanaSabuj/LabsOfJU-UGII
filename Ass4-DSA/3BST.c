@@ -97,7 +97,7 @@ node * minValueNode(node* root)
 int maxValue( node* root) 
 {    
     node* current = root; 
-    while (current->right != NULL)  
+    while (current && current->right != NULL)  
         current = current->right;   
     return (current->data); 
 } 
