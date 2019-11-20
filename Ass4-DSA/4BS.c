@@ -26,7 +26,7 @@ void swap(int* x, int* y){
 void BS(int A[], int n){
   int pass,i;
 
-  for(pass = 1; pass <= n-1; pass++){
+  for(pass = 0; pass < n-1; pass++){
     for(i = 0; i < n - pass - 1; i++){
       if(A[i] > A[i+1])
         swap(&A[i], &A[i+1]);
